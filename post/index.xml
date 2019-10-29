@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 春花秋月何时了</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 30 Oct 2019 00:36:10 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2019 00:49:10 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何用hugo搭建个人博客</title>
+      <link>http://localhost:1313/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 30 Oct 2019 00:49:10 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>如何用 hugo 搭建个人博客？ 首先安装 hugo， 因为我是 Windows 用户，所以说一下 Windows 的安装方法，到 Hugo releases 页面下载 Hugo_xxx_windows-64bit.zip 解压，把 hugo.exe 放到 D:Software\hugo\hugo.exe 搭建博客 进入 hugo 官网，点击 Quick Start</description>
+    </item>
     
     <item>
       <title>第二篇博客</title>
