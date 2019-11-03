@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>归档 - 春花秋月何时了</title>
+  <title>Css盒模型 - 春花秋月何时了</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,7 +23,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="xianmin" />
-  <meta name="description" content="Hugo theme jane example site." />
+  <meta name="description" content="————CSS盒模型简述———— 盒模型是 CSS 的基石，在一个文档中，每一个标签（元素）都被表示为矩形的盒子。渲染引擎的目标则是确定这些盒子的尺寸" />
+
   <meta name="keywords" content="Hugo, theme, jane" />
 
 
@@ -34,8 +35,8 @@
 <meta name="generator" content="Hugo 0.58.3" />
 
 
-<link rel="canonical" href="http://localhost:1313/post/" />
-<link href="/post/index.xml" rel="alternate" type="application/rss+xml" title="春花秋月何时了" />
+<link rel="canonical" href="http://localhost:1313/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/" />
+
 
 
 
@@ -58,18 +59,26 @@
 
 
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="Hugo theme jane example site." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/post/" />
+<meta property="og:title" content="Css盒模型" />
+<meta property="og:description" content="————CSS盒模型简述———— 盒模型是 CSS 的基石，在一个文档中，每一个标签（元素）都被表示为矩形的盒子。渲染引擎的目标则是确定这些盒子的尺寸" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/" />
+<meta property="article:published_time" content="2019-11-03T11:58:22+08:00" />
+<meta property="article:modified_time" content="2019-11-03T11:58:22+08:00" />
+<meta itemprop="name" content="Css盒模型">
+<meta itemprop="description" content="————CSS盒模型简述———— 盒模型是 CSS 的基石，在一个文档中，每一个标签（元素）都被表示为矩形的盒子。渲染引擎的目标则是确定这些盒子的尺寸">
 
-<meta property="og:updated_time" content="2019-11-03T11:58:22+08:00" />
-<meta itemprop="name" content="Posts">
-<meta itemprop="description" content="Hugo theme jane example site.">
 
+<meta itemprop="datePublished" content="2019-11-03T11:58:22&#43;08:00" />
+<meta itemprop="dateModified" content="2019-11-03T11:58:22&#43;08:00" />
+<meta itemprop="wordCount" content="473">
+
+
+
+<meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="Hugo theme jane example site."/>
+<meta name="twitter:title" content="Css盒模型"/>
+<meta name="twitter:description" content="————CSS盒模型简述———— 盒模型是 CSS 的基石，在一个文档中，每一个标签（元素）都被表示为矩形的盒子。渲染引擎的目标则是确定这些盒子的尺寸"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -247,7 +256,7 @@
 
       </li>
     
-        <li class="menu-item active">
+        <li class="menu-item">
         
           
           
@@ -328,113 +337,138 @@
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          
-<section id="archive" class="archive">
-    <div class="archive-title">
-      <span class="archive-post-counter">
-          共计 6 篇文章
-      </span>
-    </div>
+          <article class="post bg-white">
     
-      <div class="collection-title">
-        <h2 class="archive-year">2019</h2>
+    <header class="post-header">
+      <h1 class="post-title">Css盒模型</h1>
+      
+      <div class="post-meta">
+        <time datetime="2019-11-03" class="post-time">
+          2019-11-03
+        </time>
+        
+        
+
+        
+        
+
+        
+        
       </div>
+    </header>
 
-    <div class="archive-post">
-      <time datetime="2019-11-03" class="archive-post-time">
-        2019-11-03
-      </time>
-      <span class="archive-post-title">
-        <a href="/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/" class="archive-post-link">
-          Css盒模型
-        </a>
-      </span>
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#css盒模型简述">————CSS盒模型简述————</a>
+<ul>
+<li><a href="#内边距">内边距</a></li>
+<li><a href="#外边距合并">外边距合并</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      
+
+<h1 id="css盒模型简述">————CSS盒模型简述————</h1>
+
+<p>盒模型是 CSS 的基石，在一个文档中，每一个标签（元素）都被表示为矩形的盒子。渲染引擎的目标则是确定这些盒子的尺寸和属性（颜色、边框、背景和位置）。</p>
+
+<p>一个盒子的实际大小由它的外边距（margin）、边框（border）、内边距（padding）和内容（content）这四个部分所决定。如图：<a href="https://sm.ms/image/WPl6gi1F2xZesSf" target="_blank"><img src="https://i.loli.net/2019/11/03/WPl6gi1F2xZesSf.png" ></a></p>
+
+<h2 id="内边距">内边距</h2>
+
+<p>content area 中所设置的背景、图片、颜色会延伸作用在内边距（padding）上．</p>
+
+<h2 id="外边距合并">外边距合并</h2>
+
+<p>对于外边距的而言，最重要的就是外边距合并（margin collapsing，又称外边距塌陷）。外边距塌陷有三种情况：</p>
+
+<ol>
+<li>相邻的两个盒子的上、下外边距会合并，合并为最大的那一个值；</li>
+<li>如果块级父元素中不存在 上边框、上内边距、内联元素和清除浮动这四个数据（其实就是说上边框和上内边距距离为0，即第一个子元素的上边距和父元素挨到了一起）时，会发生子元素的上外边距和父元素的上外边距合并，取两者的最大值。父子元素的下边距合并同理；</li>
+<li>一个一个空的块级元素的 border、padding、inline content、height 和 min-height 都不存在。其上下边距会发生合并如:<a href="https://sm.ms/image/8FBu2pVCdMboDx3" target="_blank"><img src="https://i.loli.net/2019/11/03/8FBu2pVCdMboDx3.png" ></a></li>
+</ol>
+
     </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">xianmin</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+      2019-11-03
+      
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+
+    
     
 
-    <div class="archive-post">
-      <time datetime="2019-10-31" class="archive-post-time">
-        2019-10-31
-      </time>
-      <span class="archive-post-title">
-        <a href="/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/" class="archive-post-link">
-          《HTML常用标签》
-        </a>
-      </span>
-    </div>
+    <footer class="post-footer">
+      
+
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/">
+            <span class="next-text nav-default">《HTML常用标签》</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+            </i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
     
 
-    <div class="archive-post">
-      <time datetime="2019-10-30" class="archive-post-time">
-        2019-10-30
-      </time>
-      <span class="archive-post-title">
-        <a href="/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/" class="archive-post-link">
-          HTML入门笔记1
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <time datetime="2019-10-30" class="archive-post-time">
-        2019-10-30
-      </time>
-      <span class="archive-post-title">
-        <a href="/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="archive-post-link">
-          如何用hugo搭建个人博客
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <time datetime="2019-10-30" class="archive-post-time">
-        2019-10-30
-      </time>
-      <span class="archive-post-title">
-        <a href="/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="archive-post-link">
-          第二篇博客
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <time datetime="2019-10-29" class="archive-post-time">
-        2019-10-29
-      </time>
-      <span class="archive-post-title">
-        <a href="/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/" class="archive-post-link">
-          开博大吉
-        </a>
-      </span>
-    </div></section>
-
-
-
-
-
-
   
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-
-
-
 
         </div>
       </div>
