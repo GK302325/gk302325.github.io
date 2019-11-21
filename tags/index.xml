@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 春花秋月何时了</title>
-    <link>guokai.ltd/tags/</link>
+    <link>https://guokai.ltd/tags/</link>
     <description>Recent content in Tags on 春花秋月何时了</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     
-	<atom:link href="guokai.ltd/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://guokai.ltd/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
