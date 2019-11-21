@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://guokai.ltd/sitemap.xml
+Sitemap: guokai.ltd/sitemap.xml

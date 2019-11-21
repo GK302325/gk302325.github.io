@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>春花秋月何时了</title>
-    <link>https://guokai.ltd/</link>
+    <link>guokai.ltd/</link>
     <description>Recent content on 春花秋月何时了</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 21 Nov 2019 13:36:16 +0800</lastBuildDate>
     
-        <atom:link href="https://guokai.ltd/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="guokai.ltd/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://guokai.ltd/about/</link>
+      <link>guokai.ltd/about/</link>
       <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
       
-      <guid>https://guokai.ltd/about/</guid>
+      <guid>guokai.ltd/about/</guid>
       
         <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
 
@@ -36,10 +36,10 @@
     
     <item>
       <title>Posts</title>
-      <link>https://guokai.ltd/post/</link>
+      <link>guokai.ltd/post/</link>
       <pubDate>Thu, 21 Nov 2019 13:36:16 +0800</pubDate>
       
-      <guid>https://guokai.ltd/post/</guid>
+      <guid>guokai.ltd/post/</guid>
       
         <description></description>
       
