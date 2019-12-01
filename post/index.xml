@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 春花秋月何时了</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 23 Nov 2019 05:09:10 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Dec 2019 03:13:16 +0800</lastBuildDate>
     
 	<atom:link href="https://guokai.ltd/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>《JavaScaipt的基本语法》</title>
+      <link>https://guokai.ltd/post/javascaipt%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Mon, 02 Dec 2019 03:13:16 +0800</pubDate>
+      
+      <guid>https://guokai.ltd/post/javascaipt%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</guid>
+      <description>JS 的基本语法 一丶什么是表达式和语句 语句 语句（statement）是为了完成某种任务而进行的操作，语句以分号结尾，一个分号就表示一个语句结束。</description>
+    </item>
     
     <item>
       <title>《JavaScript的诞生》</title>
