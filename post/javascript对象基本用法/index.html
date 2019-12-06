@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>春花秋月何时了</title>
+  <title>《JavaScript对象基本用法》 - 春花秋月何时了</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,7 +23,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="雨化田" />
-  <meta name="description" content="Hugo theme jane example site." />
+  <meta name="description" content="《JS 对象基本用法》 1 丶声明对象的两种语法 首先我的知道对象的定义是： 无序的数据集合和键值对的集合 然后我们要搞清楚属性名和属性值： 属性名：每个" />
+
   <meta name="keywords" content="Hugo, theme, jane" />
 
 
@@ -34,8 +35,8 @@
 <meta name="generator" content="Hugo 0.58.3" />
 
 
-<link rel="canonical" href="https://guokai.ltd/" />
-<link href="/index.xml" rel="alternate" type="application/rss+xml" title="春花秋月何时了" />
+<link rel="canonical" href="https://guokai.ltd/post/javascript%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/" />
+
 
 
 
@@ -58,18 +59,26 @@
 
 
 
-<meta property="og:title" content="春花秋月何时了" />
-<meta property="og:description" content="Hugo theme jane example site." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://guokai.ltd/" />
+<meta property="og:title" content="《JavaScript对象基本用法》" />
+<meta property="og:description" content="《JS 对象基本用法》 1 丶声明对象的两种语法 首先我的知道对象的定义是： 无序的数据集合和键值对的集合 然后我们要搞清楚属性名和属性值： 属性名：每个" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://guokai.ltd/post/javascript%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/" />
+<meta property="article:published_time" content="2019-12-07T03:14:16+08:00" />
+<meta property="article:modified_time" content="2019-12-07T03:14:16+08:00" />
+<meta itemprop="name" content="《JavaScript对象基本用法》">
+<meta itemprop="description" content="《JS 对象基本用法》 1 丶声明对象的两种语法 首先我的知道对象的定义是： 无序的数据集合和键值对的集合 然后我们要搞清楚属性名和属性值： 属性名：每个">
 
-<meta property="og:updated_time" content="2019-12-07T03:14:16+08:00" />
-<meta itemprop="name" content="春花秋月何时了">
-<meta itemprop="description" content="Hugo theme jane example site.">
 
+<meta itemprop="datePublished" content="2019-12-07T03:14:16&#43;08:00" />
+<meta itemprop="dateModified" content="2019-12-07T03:14:16&#43;08:00" />
+<meta itemprop="wordCount" content="825">
+
+
+
+<meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="春花秋月何时了"/>
-<meta name="twitter:description" content="Hugo theme jane example site."/>
+<meta name="twitter:title" content="《JavaScript对象基本用法》"/>
+<meta name="twitter:description" content="《JS 对象基本用法》 1 丶声明对象的两种语法 首先我的知道对象的定义是： 无序的数据集合和键值对的集合 然后我们要搞清楚属性名和属性值： 属性名：每个"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -236,7 +245,7 @@
   <ul id="menu" class="menu">
     
     
-        <li class="menu-item active">
+        <li class="menu-item">
         
           
           
@@ -328,157 +337,220 @@
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          
-<section id="posts" class="posts">
-  
-  
+          <article class="post bg-white">
     
-  
-  
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
+    <header class="post-header">
+      <h1 class="post-title">《JavaScript对象基本用法》</h1>
       
-      <a class="post-link" href="/post/%E6%B5%85%E6%9E%90url/">《浅析URL》</a>
-    </h1>
+      <div class="post-meta">
+        <time datetime="2019-12-07" class="post-time">
+          2019-12-07
+        </time>
+        
+        
+
+        
+        
+
+        
+        
+      </div>
+    </header>
+
     
-    <div class="post-meta">
-      <time datetime="2019-11-21" class="post-time">
-        2019-11-21
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
     
-    <div class="post-summary">
-      《浅析 URL》 首先我们知道 URL 是由李爵士发明的。 URL 是 Uniform Resource Location 的缩写，译为“统一资源定位符”。通俗地说，URL 是 Internet 上用来描述信息资源的字符串，主要
-    </div>
-    <div class="read-more">
-      <a href="/post/%E6%B5%85%E6%9E%90url/" class="read-more-link">阅读全文</a>
-    </div>
-    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#js-对象基本用法">《JS 对象基本用法》</a>
+<ul>
+<li><a href="#1-丶声明对象的两种语法">1 丶声明对象的两种语法</a></li>
+<li><a href="#2-丶如何删除对象的属性">2 丶如何删除对象的属性</a></li>
+<li><a href="#3-丶如何查看对象的属性">3 丶如何查看对象的属性</a></li>
+<li><a href="#4-丶如何修改或增加对象的属性">4 丶如何修改或增加对象的属性</a>
+<ul>
+<li><a href="#修改对象属性">修改对象属性</a></li>
+<li><a href="#增加对象属性">增加对象属性</a></li>
+</ul></li>
+<li><a href="#5-丶-name-in-obj-和-obj-hasownproperty-name-的区别">5 丶&rsquo;name&rsquo; in obj 和 obj.hasOwnProperty(&lsquo;name&rsquo;) 的区别</a></li>
+<li><a href="#总结完">总结完</a></li>
+</ul></li>
+</ul>
+</nav>
   </div>
-</article>
+</div>
 
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/css%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/">《CSS知识总结》</a>
-    </h1>
     
-    <div class="post-meta">
-      <time datetime="2019-11-15" class="post-time">
-        2019-11-15
-      </time>
+    <div class="post-content">
       
-      
-      
-      
+
+<h1 id="js-对象基本用法">《JS 对象基本用法》</h1>
+
+<h2 id="1-丶声明对象的两种语法">1 丶声明对象的两种语法</h2>
+
+<p>首先我的知道对象的定义是：
+无序的数据集合和键值对的集合</p>
+
+<p>然后我们要搞清楚属性名和属性值：</p>
+
+<p>属性名：每个 key 都是对象的属性名（property)</p>
+
+<p>属性值：每个 value 都是对象的属性值。</p>
+
+<p>下面是两种声明对象的代码书写格式:</p>
+
+<pre><code>let obj = { 'property': 'guokai', ' value': 20 };
+let obj = new Object({'property': 'guokai',});
+运行:Object.keys(obj)可以得到obj的所有key.
+注意：键名是字符串，不是标识符
+</code></pre>
+
+<h2 id="2-丶如何删除对象的属性">2 丶如何删除对象的属性</h2>
+
+<pre><code>delete obj['xxx']或者delete obj.xxx     即可删除obj的xxx属性。
+'xxx' in obj  是查看xxx是否是obj这个对象的属性 返回turn（是） 返回false(不是)；但是无法区分这个属性是自身的还是原型共有的所有我们用下面的：
+obj.hasOunProperty('xxx') 如果返回false就说明不是他自身的。
+</code></pre>
+
+<h2 id="3-丶如何查看对象的属性">3 丶如何查看对象的属性</h2>
+
+<ul>
+<li><p>查看自身所有属性</p>
+
+<p>中括号语法：obj[&lsquo;xxx&rsquo;]
+   点语法：obj.xxx
+   特别要注意的是：obj.xxx 和 obj[&lsquo;xxx&rsquo;]是字符串，obj[xxx]是一个变量。</p></li>
+
+<li><p>查看自身+共有属性</p>
+
+<p>console.dir（obj)
+   用 Object.keys 打印出 obj.<strong>preto</strong></p></li>
+
+<li><p>判断一个属性是自身的还是共有的</p>
+
+<p>obj.hasOunProperty(&lsquo;toString&rsquo;)</p></li>
+</ul>
+
+<h2 id="4-丶如何修改或增加对象的属性">4 丶如何修改或增加对象的属性</h2>
+
+<h3 id="修改对象属性">修改对象属性</h3>
+
+<ul>
+<li><p>直接赋值</p>
+
+<p>let obj = {name: &lsquo;GK&rsquo;}
+  obj.name = &lsquo;GK&rsquo;（name是字符串）
+  obj[&lsquo;name&rsquo;] = &lsquo;GK&rsquo;
+  obj[&lsquo;na&rsquo;+&lsquo;me&rsquo;] = &lsquo;GK&rsquo;
+  let key = &lsquo;name&rsquo;; obj[key] = &lsquo;GK&rsquo;;let key = &lsquo;name&rsquo;;</p>
+
+<p>以上几种方法都可以通过赋值修改对象属性</p></li>
+
+<li><p>批量赋值</p>
+
+<p>Object.assign(obj, {age: 18, gender: &lsquo;man&rsquo;})</p></li>
+
+<li><p>修改共有属性</p></li>
+</ul>
+
+<p>一般来说无法通过自身修改或增加共有属性如果偏要加也是可以的。</p>
+
+<pre><code>改共有属性:
+1. obj.__proto__['toString']='xxx';
+2. Object.prototype['toString']='xxx';
+改原型：
+1. obj.__proto__ = common;
+2. let obj = Object.create(common);
+注: 所有__proto__代码都是强烈不推荐写的。
+</code></pre>
+
+<h3 id="增加对象属性">增加对象属性</h3>
+
+<p>基本和修改对象属性一样，
+已有则改，没有则增。</p>
+
+<h2 id="5-丶-name-in-obj-和-obj-hasownproperty-name-的区别">5 丶&rsquo;name&rsquo; in obj 和 obj.hasOwnProperty(&lsquo;name&rsquo;) 的区别</h2>
+
+<p>两者的细节已经在删除对象属性中详细讲过了。他们的区别在于：</p>
+
+<p>&lsquo;name&rsquo; in obj 无法区分这个属性是自身的还是原型共有的，所以就提供了
+obj.hasOunProperty(&lsquo;xxx&rsquo;)。</p>
+
+<h2 id="总结完">总结完</h2>
+
     </div>
-  </header>
-  
-  <div class="post-content">
+
     
-    <div class="post-summary">
-      《CSS 知识总结》 浏览器的渲染原理 步骤： 根据HTML构建HTML树（DOM） 根据Css构建Css树（CSSOM） 将两颗树合成一颗树（rend
-    </div>
-    <div class="read-more">
-      <a href="/post/css%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/" class="read-more-link">阅读全文</a>
-    </div>
     
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">雨化田</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+      2019-12-07
       
-      <a class="post-link" href="/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/">Css盒模型</a>
-    </h1>
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+
     
-    <div class="post-meta">
-      <time datetime="2019-11-03" class="post-time">
-        2019-11-03
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
     
-    <div class="post-summary">
-      ————CSS盒模型简述———— 盒模型是 CSS 的基石，在一个文档中，每一个标签（元素）都被表示为矩形的盒子。渲染引擎的目标则是确定这些盒子的尺寸
-    </div>
-    <div class="read-more">
-      <a href="/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/" class="read-more-link">阅读全文</a>
-    </div>
+
+    <footer class="post-footer">
+      
+
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/javascript%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/">
+            <span class="next-text nav-default">《JavaScript的基本语法》</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+            </i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
     
-  </div>
-</article>
 
   
-</section>
-
-
-
-
-
-
-  
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-  <nav class="pagination">
-    <ul>
-      
-      <li >
-        <a href="/">1</a>
-      </li>
-      
-      <li  class="active" >
-        <a href="/page/2/">2</a>
-      </li>
-      
-      <li >
-        <a href="/page/3/">3</a>
-      </li>
-      
-      <li >
-        <a href="/page/4/">4</a>
-      </li>
-      
-    </ul>
-  </nav>
-
-  
-  
-
-
-
-
 
         </div>
       </div>
