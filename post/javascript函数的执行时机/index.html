@@ -399,9 +399,8 @@ for(i = 0; i&lt;6; i++){
 setTimeout(function(){
     console.log(i);
 },0);
+}
 </code></pre>
-
-<p>}</p>
 
 <p>结果是：0、1、2、3、4、5 在 setTimeout 的时候，匿名函数 function(){console.log(i);}会被声明创建，当匿名函数执行的时候，会查找当前运行环境的 i 的值。但是 let 声明的 i，运行环境中 i 的值是每一个循环创建匿名函数时候的 i，所以得到了 0-9 的值。</p>
 
